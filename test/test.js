@@ -1,8 +1,8 @@
-var assert = require("assert");
-import todo from "../dist/TODO-PACKAGE-NAME";
+import assert from 'assert';
+import generateID from '../dist/generateID';
 
-describe("Package", function () {
-  it("works", ()=>{
-    assert.equal(todo(), 42);
+describe('generateID', function() {
+  it('generates a unique ID', function() {
+    assert.ok(generateID() != generateID());
   });
 });
