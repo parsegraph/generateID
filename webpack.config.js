@@ -6,7 +6,7 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "generateid.js",
     globalObject: "this",
-    library: "generateid",
+    library: "generateID",
     libraryTarget: "umd",
   },
   module: {
