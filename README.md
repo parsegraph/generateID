@@ -1,9 +1,9 @@
-# parsegraph-generateID 
+# parsegraph-generateid
 
 ## Setup
 
 <pre>
-npm i parsegraph-generateID
+npm i parsegraph-generateid
 </pre>
 
 ## Development

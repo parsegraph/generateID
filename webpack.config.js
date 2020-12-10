@@ -4,9 +4,9 @@ module.exports = {
   entry: path.resolve(__dirname, "src/index.ts"),
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "generateID.js",
+    filename: "generateid.js",
     globalObject: "this",
-    library: "generateID",
+    library: "generateid",
     libraryTarget: "umd",
   },
   module: {

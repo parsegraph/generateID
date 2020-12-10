@@ -1,8 +1,8 @@
 {
-  "name": "parsegraph-generateID",
+  "name": "parsegraph-generateid",
   "version": "1.4.0",
   "description": "Simple unique ID string generator",
-  "main": "dist/generateID.js",
+  "main": "dist/generateid.js",
   "scripts": {
     "coverage": "nyc npm run test",
     "test": "mocha -r @babel/register -r jsdom-global/register --recursive",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/parsegraph/generateID.git"
+    "url": "git+ssh://git@github.com/parsegraph/generateid.git"
   },
   "author": "Rainback, Inc.",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/parsegraph/generateID/issues"
+    "url": "https://github.com/parsegraph/generateid/issues"
   },
-  "homepage": "https://github.com/parsegraph/generateID#readme",
+  "homepage": "https://github.com/parsegraph/generateid#readme",
   "nyc": {
     "extends": "@istanbuljs/nyc-config-babel",
     "reporter": [

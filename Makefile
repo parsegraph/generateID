@@ -1,4 +1,4 @@
-DIST_NAME = generateID
+DIST_NAME = generateid
 
 SCRIPT_FILES = \
 	src/index.ts

@@ -1,5 +1,5 @@
 import assert from 'assert';
-import generateID from '../dist/generateID';
+import generateID from '../dist/generateid';
 
 describe('generateID', function() {
   it('generates a unique ID', function() {
