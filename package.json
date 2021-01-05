@@ -1,8 +1,9 @@
 {
   "name": "parsegraph-generateid",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "Simple unique ID string generator",
-  "main": "dist/generateid.ts",
+  "main": "dist/generateid.js",
+  "types": "dist/generateid.d.ts",
   "scripts": {
     "coverage": "nyc npm run test",
     "test": "mocha -r @babel/register -r jsdom-global/register --recursive",
