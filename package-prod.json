@@ -1,0 +1,17 @@
+{
+    "name": "parsegraph-generateid",
+    "version": "1.4.5",
+    "description": "generateid",
+    "main": "dist/parsegraph-generateid.js",
+    "types": "dist/parsegraph-generateid.d.ts",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/parsegraph/generateid.git"
+    },
+    "author": "Rainback, Inc.",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/parsegraph/generateid/issues"
+    },
+    "homepage": "https://github.com/parsegraph/generateid#readme"
+  }
