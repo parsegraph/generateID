@@ -6,7 +6,7 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "parsegraph-generateid.js",
     globalObject: "this",
-    library: "parsegraph",
+    library: "parsegraph_generateid",
     libraryTarget: "umd",
   },
   module: {
