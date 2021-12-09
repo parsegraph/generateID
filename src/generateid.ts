@@ -1,8 +1,8 @@
 let count = 0;
 // eslint-disable-next-line require-jsdoc
-export default function generateID(prefix?:string):string {
+export default function generateID(prefix?: string): string {
   if (!prefix) {
-    prefix = 'parsegraph-unique';
+    prefix = "parsegraph-unique";
   }
-  return prefix + '-' + ++count;
+  return prefix + "-" + ++count;
 }
