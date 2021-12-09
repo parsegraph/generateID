@@ -1,6 +1,6 @@
 {
     "name": "parsegraph-generateid",
-    "version": "1.4.5",
+    "version": "1.4.6",
     "description": "generateid",
     "main": "dist/parsegraph-generateid.js",
     "types": "dist/parsegraph-generateid.d.ts",

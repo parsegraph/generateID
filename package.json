@@ -1,6 +1,6 @@
 {
   "name": "parsegraph-generateid",
-  "version": "1.4.5-dev",
+  "version": "1.4.6-dev",
   "description": "Simple unique ID string generator",
   "main": "dist/parsegraph-generateid.js",
   "types": "dist/parsegraph-generateid.d.ts",
