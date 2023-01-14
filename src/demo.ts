@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let timer: any = null;
   let dotTimer: any = null;
   let dotIndex = 0;
-  let dotState = ["#f00", "#c00"];
+  const dotState = ["#f00", "#c00"];
   const refreshDot = () => {
     dotIndex = (dotIndex + 1) % dotState.length;
     dot.style.backgroundColor = dotState[dotIndex];
